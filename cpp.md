@@ -3,13 +3,44 @@ marp: true
 theme: default
 paginate: true
 math: mathjax
+header: '![](assets/logo_cern.png) ![](assets/logo_infn.png) ![](assets/logo_unibo.png)'
 ---
+
+<style>
+/* pull slide titles to the top */
+section {
+  justify-content: flex-start !important;
+  padding-top: 0.6rem !important;
+}
+
+h2 {
+  margin-top: 0 !important;
+  margin-bottom: 0.4em !important;
+}
+
+/* header logos — top-right */
+header {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  left: auto;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0;
+  background: transparent;
+}
+header img {
+  height: 0.8cm;
+  width: auto;
+}
+</style>
 
 ![height:2cm](images/logo_esc.png)
 
 # Efficient C++ Programming
 
-F. Giacomini · S. Balducci  
+S. Balducci · F. Giacomini 
 INFN-CNAF | CERN
 
 ESC25 — Bertinoro, 29 September – 9 October 2025

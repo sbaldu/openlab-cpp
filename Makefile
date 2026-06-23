@@ -1,2 +1,2 @@
 all:
-	marp slides.md --pdf
+	marp cpp.md --pdf
