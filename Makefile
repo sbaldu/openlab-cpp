@@ -2,7 +2,7 @@ all:
 	marp cpp.md --pdf
 
 cpp:
-	npx @marp-team/marp-cli -w -p cpp.md 
+	npx @marp-team/marp-cli -w -p --html cpp.md 
 
 cuda:
-	npx @marp-team/marp-cli -w -p cuda.md 
+	npx @marp-team/marp-cli -w -p --html cuda.md 
